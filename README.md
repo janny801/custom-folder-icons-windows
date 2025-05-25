@@ -11,3 +11,5 @@ You can use this to **visually organize folders** by applying personalized icons
 - Hides `desktop.ini` after creation
 - Restarts Windows Explorer to reflect changes
 - Opens `desktop.ini` for manual verification (with Admin rights)
+
+## 🛠 How to Use
