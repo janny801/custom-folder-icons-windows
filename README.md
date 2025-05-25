@@ -30,3 +30,12 @@ You can use this to **visually organize folders** by applying personalized icons
 
    Right-click the saved `.bat` file and choose **"Run as administrator"**.  
    This is required to modify system attributes and restart Explorer.
+
+4. **Verify the Icon and Configuration:**
+
+   The script will automatically open the `desktop.ini` file in Notepad (as Administrator).  
+   Confirm it contains the correct icon path:
+   ```ini
+   [.ShellClassInfo]
+   IconResource=FULL_PATH_TO_ICON_FILE.ico,0
+    ```
