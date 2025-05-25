@@ -13,3 +13,20 @@ You can use this to **visually organize folders** by applying personalized icons
 - Opens `desktop.ini` for manual verification (with Admin rights)
 
 ## 🛠 How to Use
+
+1. **Edit the Script:**
+
+   Replace these two lines in the script with your actual paths:
+   ```bat
+   set folder=FULL_PATH_TO_TARGET_FOLDER
+   set icon=FULL_PATH_TO_ICON_FILE.ico
+    ```
+2. **Save the Script as a `.bat` File:**
+
+   Open Notepad, paste the script, and save it with a `.bat` extension (e.g., `set_folder_icon.bat`).  
+   Be sure to select **"All Files"** as the file type when saving.
+
+3. **Run the Script as Administrator:**
+
+   Right-click the saved `.bat` file and choose **"Run as administrator"**.  
+   This is required to modify system attributes and restart Explorer.
