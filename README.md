@@ -39,3 +39,5 @@ You can use this to **visually organize folders** by applying personalized icons
    [.ShellClassInfo]
    IconResource=FULL_PATH_TO_ICON_FILE.ico,0
     ```
+
+## 📁 Example
