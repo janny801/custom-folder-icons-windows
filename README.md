@@ -41,3 +41,8 @@ You can use this to **visually organize folders** by applying personalized icons
     ```
 
 ## 📁 Example
+
+```bat
+set folder=C:\Users\YourName\Documents\MyFolder
+set icon=D:\icoFiles\customIcon.ico
+```
