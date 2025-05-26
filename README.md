@@ -46,3 +46,8 @@ You can use this to **visually organize folders** by applying personalized icons
 set folder=C:\Users\YourName\Documents\MyFolder
 set icon=D:\icoFiles\customIcon.ico
 ```
+
+**Explanation:**
+
+- `set folder=...` is the full path to the folder where you want to apply the new icon.
+- `set icon=...` is the path to your `.ico` file (the custom icon you want to use).
