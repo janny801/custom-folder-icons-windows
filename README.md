@@ -59,3 +59,13 @@ When you run the script with these paths:
 - Applies required attributes so Windows respects the settings.
 - Restarts File Explorer so the change shows right away.
 - Opens `desktop.ini` in Notepad (as Admin) so you can check that everything looks correct.
+
+## 📌 Notes
+
+- Store `.ico` files **outside of OneDrive** to avoid sync issues or broken icon references.
+- Use **absolute paths** for both `folder` and `icon` to ensure the script works reliably.
+- If the icon does not appear immediately, ensure:
+  - The folder was not open in File Explorer while the script ran.
+  - The `.ico` file path is valid and accessible.
+  - The `desktop.ini` was correctly written (opened at the end of the script).
+- This script modifies folder attributes and restarts Explorer — always run it with **Administrator privileges**.
