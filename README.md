@@ -69,3 +69,15 @@ When you run the script with these paths:
   - The `.ico` file path is valid and accessible.
   - The `desktop.ini` was correctly written (opened at the end of the script).
 - This script modifies folder attributes and restarts Explorer — always run it with **Administrator privileges**.
+
+## ❓ Troubleshooting
+
+### Icon Didn't Change
+- **Check if the folder was open in Explorer** when the script ran. Close it and re-run the script.
+- **Ensure the `.ico` file exists** and the path is correct.
+- **Verify `desktop.ini` content** by checking that it includes:
+  ```ini
+  [.ShellClassInfo]
+  IconResource=FULL_PATH_TO_ICON_FILE.ico,0
+  ```
+**Run the script as Administrator.** If not, some changes (like Explorer restart or file attribute updates) may fail.
