@@ -51,3 +51,11 @@ set icon=D:\icoFiles\customIcon.ico
 
 - `set folder=...` is the full path to the folder where you want to apply the new icon.
 - `set icon=...` is the path to your `.ico` file (the custom icon you want to use).
+
+When you run the script with these paths:
+
+- It deletes any old icon setting (`desktop.ini`) from the folder.
+- Writes a new `desktop.ini` file that tells Windows to use your `.ico` file.
+- Applies required attributes so Windows respects the settings.
+- Restarts File Explorer so the change shows right away.
+- Opens `desktop.ini` in Notepad (as Admin) so you can check that everything looks correct.
