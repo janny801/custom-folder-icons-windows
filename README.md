@@ -90,3 +90,12 @@ When you run the script with these paths:
   ```cmd
   attrib "FULL_PATH_TO_TARGET_FOLDER"
   ```
+
+### desktop.ini Doesn't Show
+
+- Enable hidden files and system files in File Explorer view settings.
+- Or, open it directly via Command Prompt:
+
+  ```cmd
+  notepad "FULL_PATH_TO_TARGET_FOLDER\desktop.ini"
+  ```
