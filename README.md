@@ -99,3 +99,19 @@ When you run the script with these paths:
   ```cmd
   notepad "FULL_PATH_TO_TARGET_FOLDER\desktop.ini"
   ```
+
+### Still Not Working?
+
+- Try clearing the icon cache:
+
+  ```cmd
+  ie4uinit.exe -ClearIconCache
+  ```
+
+- Then restart Explorer again:
+
+  ```cmd
+  taskkill /f /im explorer.exe
+  start explorer.exe
+  ```
+
