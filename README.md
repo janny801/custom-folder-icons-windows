@@ -81,3 +81,12 @@ When you run the script with these paths:
   IconResource=FULL_PATH_TO_ICON_FILE.ico,0
   ```
 **Run the script as Administrator.** If not, some changes (like Explorer restart or file attribute updates) may fail.
+
+### Icon Resets After Reboot
+
+- Make sure the `.ico` file is in a **permanent location outside OneDrive** (e.g., `D:\icoFiles`).
+- Verify the folder still has `+s` (system) and `+r` (read-only) attributes:
+  
+  ```cmd
+  attrib "FULL_PATH_TO_TARGET_FOLDER"
+  ```
