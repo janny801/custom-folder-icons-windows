@@ -64,7 +64,8 @@ When you run the script with these paths:
 
 ![Folder Icons Preview](./imgs/folderimgs.png)
 
-
+All folders shown have been updated with custom icons using this script,  
+except for the **Screenshots** folder which still has the default icon.
 
 ## 📌 Notes
 
