@@ -60,6 +60,9 @@ When you run the script with these paths:
 - Restarts File Explorer so the change shows right away.
 - Opens `desktop.ini` in Notepad (as Admin) so you can check that everything looks correct.
 
+**Visual Example:**
+
+
 ## 📌 Notes
 
 - Store `.ico` files **outside of OneDrive** to avoid sync issues or broken icon references.
