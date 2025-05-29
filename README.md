@@ -62,6 +62,9 @@ When you run the script with these paths:
 
 **Visual Example:**
 
+![Folder Icons Preview](./imgs/folderimgs.png)
+
+
 
 ## 📌 Notes
 
