@@ -70,7 +70,7 @@ except for the **Screenshots** folder which still has the default icon.
 ## 🔐 Permissions and Limitations
 - **Requires Admin Rights:** Script must be run as Administrator to change folder attributes and restart Explorer.
 - **Only Works on Folders:** Cannot be used to set icons for drives or individual files.
-
+- **Supports `.ico` only:** `.png`, `.jpg`, or `.dll` icon references will not work.
 
 ## 📌 Notes
 
