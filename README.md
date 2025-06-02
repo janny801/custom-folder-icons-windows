@@ -67,6 +67,9 @@ When you run the script with these paths:
 All folders shown have been updated with custom icons using this script,  
 except for the **Screenshots** folder which still has the default icon.
 
+## 🔐 Permissions and Limitations
+
+
 ## 📌 Notes
 
 - Store `.ico` files **outside of OneDrive** to avoid sync issues or broken icon references.
