@@ -127,3 +127,6 @@ except for the **Screenshots** folder which still has the default icon.
   start explorer.exe
   ```
 
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
