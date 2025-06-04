@@ -5,6 +5,8 @@ It automates the process of assigning custom icons to folders, sets the required
 
 You can use this to **visually organize folders** by applying personalized icons with minimal effort.
 
+> ⚠️ **Important:** This script **must be run as Administrator**. Right-click the `.bat` file and choose **"Run as administrator"**.
+
 ## ✅ Features
 - Applies custom icon via `desktop.ini`
 - Automatically sets required folder attributes (`+s +r`)
