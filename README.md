@@ -98,7 +98,7 @@ except for the **Screenshots** folder which still has the default icon.
 
 ### Icon Resets After Reboot
 
-- Make sure the `.ico` file is in a **permanent location outside OneDrive** (e.g., `D:\icoFiles`).
+- **Strongly recommended:** Keep your `.ico` files in a permanent folder **outside of OneDrive** (e.g., `D:\icoFiles`) to prevent sync issues or missing icons after reboot.
 - Verify the folder still has `+s` (system) and `+r` (read-only) attributes:
   
   ```cmd
