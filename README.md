@@ -3,7 +3,7 @@
 This is a **Windows 11 batch script (.bat)** that allows you to change folder icons by applying a custom `.ico` file using a `desktop.ini` configuration.  
 It automates the process of assigning custom icons to folders, sets the required attributes, and refreshes File Explorer so the new icon appears immediately.
 
-You can use this to **visually organize folders** by applying personalized icons with minimal effort.
+You can use this to **automate the process of changing folder icons** on Windows 11 by applying personalized `.ico` files with minimal effort.
 
 > ⚠️ **Important:** This script **must be run as Administrator**. Right-click the `.bat` file and choose **"Run as administrator"**.
 
