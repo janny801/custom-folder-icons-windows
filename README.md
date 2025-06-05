@@ -94,7 +94,6 @@ except for the **Screenshots** folder which still has the default icon.
   [.ShellClassInfo]
   IconResource=FULL_PATH_TO_ICON_FILE.ico,0
   ```
-**Run the script as Administrator.** If not, some changes (like Explorer restart or file attribute updates) may fail.
 
 - **Try manually opening `desktop.ini`** — this can sometimes help Windows refresh the icon.
 
