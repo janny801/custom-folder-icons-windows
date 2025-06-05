@@ -96,6 +96,16 @@ except for the **Screenshots** folder which still has the default icon.
   ```
 **Run the script as Administrator.** If not, some changes (like Explorer restart or file attribute updates) may fail.
 
+- **Try manually opening `desktop.ini`** — this can sometimes help Windows refresh the icon.
+
+  **Option 1 – Using Run (Win + R):**
+
+  1. Press `Windows + R` on your keyboard.
+  2. Enter:
+     ```
+     notepad FULL_PATH_TO_TARGET_FOLDER\desktop.ini
+     ```
+
 ### Icon Resets After Reboot
 
 - **Strongly recommended:** Keep your `.ico` files in a permanent folder **outside of OneDrive** (e.g., `D:\icoFiles`) to prevent sync issues or missing icons after reboot.
