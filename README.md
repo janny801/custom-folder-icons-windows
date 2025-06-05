@@ -105,6 +105,14 @@ except for the **Screenshots** folder which still has the default icon.
      ```
      notepad FULL_PATH_TO_TARGET_FOLDER\desktop.ini
      ```
+  **Option 2 – Using Command Prompt (as Administrator):**
+  ```cmd
+  notepad "FULL_PATH_TO_TARGET_FOLDER\desktop.ini"
+  ```
+  Replace `FULL_PATH_TO_TARGET_FOLDER` with your actual folder path.
+
+- **Run the script as Administrator.** If not, some changes (like Explorer restart or file attribute updates) may fail.
+  
 
 ### Icon Resets After Reboot
 
